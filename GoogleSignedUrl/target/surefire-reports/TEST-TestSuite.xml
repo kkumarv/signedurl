@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TestSuite" time="0.348" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Krishna Kumar\Documents\GoogleSignedUrl"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Krishna Kumar\Documents\GoogleSignedUrl"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\KRISHN~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Krishna Kumar\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9361712502132111425.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;E:\NODECODE\nvm;E:\nodejs;C:\Users\Krishna Kumar\AppData\Local\Microsoft\WindowsApps;C:\Users\Krishna Kumar\AppData\Local\Programs\Microsoft VS Code\bin;E:\NODECODE\nvm;E:\nodejs;C:\Users\Krishna Kumar\Documents\New folder\apache-maven-3.8.4\bin;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Krishna Kumar"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Krishna Kumar"/>
+    <property name="java.class.path" value="C:\Users\Krishna Kumar\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210603-1206\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Krishna Kumar\Documents\GoogleSignedUrl\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.google.apigee.callouts.rsa.TestUrlSignV4Callout" name="goodResult1" time="0.348">
+    <failure message="signedUrl expected object to not be null" type="java.lang.AssertionError">java.lang.AssertionError: signedUrl expected object to not be null
+	at com.google.apigee.callouts.rsa.TestUrlSignV4Callout.goodResult1(TestUrlSignV4Callout.java:213)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@726f3b58
+pkpkpkpkpk[&quot;https:\/\/storage.googleapis.com\/bucket\/test23?X-Goog-Algorithm=GOOG4-RSA-SHA256&amp;X-Goog-Credential=account-223456789%40project-apigee.iam.gserviceaccount.com%2F20220207%2Fus%2Fstorage%2Fgoog4_request&amp;X-Goog-Date=20220207T133205Z&amp;X-Goog-Expires=600&amp;X-Goog-SignedHeaders=host&amp;X-Goog-Signature=6255bc5b32993d8e21629570fbf3ab319f8201cda120637b111f0ba576564cc1a8f59437027aea8f3ccb46aa43b51e67dd01673f1b99a173d7ab79293b49c12fd732b5ac2ad09c08f01b1fa7fd4f5ecfa99aa61f32740dfcea11bacffb1897f575fef07211a604f38297cf15824ecd2ca3c0b684a89437f8c4fc0868d2c3e38964b04ce5d79c9e01245fdbf403e9bf2480fcad8db5948b06f20aed5c5671a1c7d249c0dad7b79b2fa4e657aa805c2b0b9592d05679b20011f52bc60aa3d90f4878db44ef6b3d48b7a28f64041d84eb110928350349dd0db41a4d1e0108ce4369716bc515248859b3fbcaa065598aa866e523c3a772d025b0e7cab830aa1865bc&quot;,&quot;https:\/\/storage.googleapis.com\/bucket\/test34?X-Goog-Algorithm=GOOG4-RSA-SHA256&amp;X-Goog-Credential=account-223456789%40project-apigee.iam.gserviceaccount.com%2F20220207%2Fus%2Fstorage%2Fgoog4_request&amp;X-Goog-Date=20220207T133205Z&amp;X-Goog-Expires=600&amp;X-Goog-SignedHeaders=host&amp;X-Goog-Signature=63ee041e9360837c062d02c6435478f966df221af8080e7518790c347d9db3195b652cf95b425f3ff4645dcc1ad3796b50c631e274d945fddb83b69acaa52bbd6217acb3df1418310eeedbcdd80716454c79db5e8098d585f5edd91ec1ab41f25a87c80cfe800dffba3b699e5b30f850caf9b0db5d7230900f44f6ac45d8aa2e0b6b8d76b5805e88547356a7c11f9f17be94fad165e8a4079ff179e48aa89b8f4869b9d70279626bc7c5ce0840a7bb4de3103975f8cb0cd7b0539c8fe4a5bb20dee6a62636826737322618be85018acdaa3d2d37372207a37900fab351b7ba6f53e6e0a7690a6270baab1f400d971e582161c828032d424f38107395578b2c3c&quot;]
+</system-out>
+  </testcase>
+</testsuite>

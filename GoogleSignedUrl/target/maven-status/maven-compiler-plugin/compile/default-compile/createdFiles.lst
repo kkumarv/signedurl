@@ -1,0 +1,5 @@
+com\google\apigee\callouts\rsa\V4SignedUrlCallout.class
+com\google\apigee\time\TimeResolver.class
+com\google\apigee\callouts\rsa\V2SignedUrlCallout.class
+com\google\apigee\callouts\rsa\SigningCalloutBase.class
+com\google\apigee\json\JavaxJson.class
